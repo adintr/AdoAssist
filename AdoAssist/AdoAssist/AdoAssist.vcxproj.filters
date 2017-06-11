@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="EditList">
+      <UniqueIdentifier>{e5532800-cddb-443f-9f19-e75056cb2455}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdoAssist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdoAssistDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="datagrid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DataGridDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TableDataDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="xMfcBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nirs2000_src\ComboItem.cpp">
+      <Filter>EditList</Filter>
+    </ClCompile>
+    <ClCompile Include="nirs2000_src\EditItem.cpp">
+      <Filter>EditList</Filter>
+    </ClCompile>
+    <ClCompile Include="nirs2000_src\EditList.cpp">
+      <Filter>EditList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdoAssist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AdoAssistDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="datagrid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DataGridDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TableDataDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="xMfcBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="nirs2000_src\ComboItem.h">
+      <Filter>EditList</Filter>
+    </ClInclude>
+    <ClInclude Include="nirs2000_src\EditItem.h">
+      <Filter>EditList</Filter>
+    </ClInclude>
+    <ClInclude Include="nirs2000_src\EditList.h">
+      <Filter>EditList</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AdoAssist.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\AdoAssist.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdoAssist.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

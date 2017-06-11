@@ -1,0 +1,1 @@
+Open(_bstr_t(_T("Driver=MySQL ODBC 5.1 Driver;Server=localhost;Database=test")), _bstr_t(_T("root")), _bstr_t(_T("123456")), adOpenUnspecified)

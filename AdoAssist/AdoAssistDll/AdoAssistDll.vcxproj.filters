@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Ini">
+      <UniqueIdentifier>{6d710688-9af9-4fa9-aec3-ba34c86711f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{7999dbff-7c3c-48d6-ba89-3733f3d5fae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\h">
+      <UniqueIdentifier>{d191efc1-c5f9-4ab1-8e61-ad1ee4e68a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\cpp">
+      <UniqueIdentifier>{fb9adc5a-87f0-4de5-b59b-46fdb62879ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdoAssistDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AdoClassData.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ini\Ini.cpp">
+      <Filter>Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="json\lib_json\json_reader.cpp">
+      <Filter>json\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="json\lib_json\json_value.cpp">
+      <Filter>json\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="json\lib_json\json_writer.cpp">
+      <Filter>json\cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdoAssistDll.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\AdoAssistDll.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="json\lib_json\json_internalarray.inl">
+      <Filter>json\cpp</Filter>
+    </None>
+    <None Include="json\lib_json\json_internalmap.inl">
+      <Filter>json\cpp</Filter>
+    </None>
+    <None Include="json\lib_json\json_valueiterator.inl">
+      <Filter>json\cpp</Filter>
+    </None>
+    <None Include="json\lib_json\sconscript">
+      <Filter>json\cpp</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdoClassData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DllExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ini\Ini.h">
+      <Filter>Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\autolink.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\config.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\features.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\forwards.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\json.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\reader.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\value.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\include\json\writer.h">
+      <Filter>json\h</Filter>
+    </ClInclude>
+    <ClInclude Include="json\lib_json\json_batchallocator.h">
+      <Filter>json\cpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdoAssistDll.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
